@@ -21,9 +21,6 @@ class MinesweeperView(Frame):
     def __init__(self, model, controller, parent=None, **kwargs) -> None:
         super().__init__(parent, **kwargs)
 
-        # self.buttons_row = None
-        # self.buttons_table = None
-        # self.board = None
         self.model = model
         self.controller = controller
         self.controller.set_view(self)
